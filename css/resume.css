@@ -133,10 +133,19 @@ section.resume-section .resume-item .resume-date {
 
 .cert-list .sub-title {
   font-size: 1rem;
+  font-weight: 600;
 }
 
 .cert-list .sub-acad {
   font-size: 0.75rem;
+}
+
+.cert-list .sub-acad.d-block {
+  display: none !important;
+}
+
+.b-points {
+  margin-left: 0;
 }
 
 @media (min-width: 768px) {
