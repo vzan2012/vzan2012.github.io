@@ -154,7 +154,21 @@ section.resume-section .resume-item .resume-date {
   margin-left: 0;
 }
 
+@media (min-width: 375px) {
+  .d-mobile-color {
+    color: #343a40;
+  }
+  h1.mb-0 {
+    text-align: center;
+    margin-bottom: 20px !important;
+  }
+}
+
 @media (min-width: 768px) {
+  h1.mb-0 {
+    text-align: left;
+    margin-bottom: 0 !important;
+  }
   section.resume-section {
     min-height: 100vh;
   }
