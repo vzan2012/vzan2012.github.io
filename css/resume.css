@@ -60,8 +60,14 @@ h2 {
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
+  color: #495057;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link.active {
+  color: #212529;
+  font-weight: bold;
 }
 
 @media (min-width: 992px) {
@@ -114,11 +120,11 @@ section.resume-section .resume-item .resume-date {
   min-width: none;
 }
 
-.resume-email {
+.resume-email, .g-addr-link {
   color: #E06D06;
 }
 
-.resume-email:hover {
+.resume-email:hover, .g-addr-link:hover {
   color: #868e96;
   text-decoration: none;
 }
@@ -165,11 +171,11 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #E06D06 !important;
+  background-color: #ffb61c !important;
 }
 
 .text-primary {
-  color: #E06D06 !important;
+  color: #ffb61c !important;
 }
 
 a {
@@ -177,5 +183,5 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: #954904;
+  color: #cf8c00;
 }
