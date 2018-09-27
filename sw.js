@@ -100,7 +100,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "e454ccaec7795ba950f76bc52cf6b6c3"
+    "revision": "c8ce7b0120c1aa3e471cf70ea7da160e"
   },
   {
     "url": "js/resume.js",
@@ -284,7 +284,7 @@ self.__precacheManifest = [
   },
   {
     "url": "web-development/index.html",
-    "revision": "bdbb6b219860293780fbfe58e7f2e5be"
+    "revision": "c8ce7b0120c1aa3e471cf70ea7da160e"
   },
   {
     "url": "web-development/js/resume.js",
