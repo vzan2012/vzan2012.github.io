@@ -284,7 +284,7 @@ self.__precacheManifest = [
   },
   {
     "url": "web-development/index.html",
-    "revision": "1987e62073306d07b869fa0a17aff012"
+    "revision": "55fb0a0aac99dd82d37f3e9b5e5a1f82"
   },
   {
     "url": "web-development/js/resume.js",
