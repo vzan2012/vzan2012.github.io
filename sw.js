@@ -100,7 +100,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "1987e62073306d07b869fa0a17aff012"
+    "revision": "6ab91bfcb1cf14f5fe8bc0ada6cea4b3"
   },
   {
     "url": "js/resume.js",
@@ -212,7 +212,7 @@ self.__precacheManifest = [
   },
   {
     "url": "web-development/gulpfile.js",
-    "revision": "f7944de1998e9ddc100a637a5ef884a0"
+    "revision": "a3b3f0411308e2d04ed20bbd1dfa0537"
   },
   {
     "url": "web-development/img/favicons/apple-touch-icon-114x114.png",
@@ -284,7 +284,7 @@ self.__precacheManifest = [
   },
   {
     "url": "web-development/index.html",
-    "revision": "55fb0a0aac99dd82d37f3e9b5e5a1f82"
+    "revision": "6ab91bfcb1cf14f5fe8bc0ada6cea4b3"
   },
   {
     "url": "web-development/js/resume.js",
@@ -300,11 +300,11 @@ self.__precacheManifest = [
   },
   {
     "url": "web-development/package-lock.json",
-    "revision": "555c91080d1e16e19ebcb4c1f83e6324"
+    "revision": "62ea6a861006e87d35507379bcc39eae"
   },
   {
     "url": "web-development/package.json",
-    "revision": "53aab2255d14b14c8f7094cf59763e79"
+    "revision": "9c7ba31fefecbdcd6d01c22d1da94fe3"
   },
   {
     "url": "web-development/vendor/bootstrap/css/bootstrap-grid.css",
@@ -324,27 +324,27 @@ self.__precacheManifest = [
   },
   {
     "url": "web-development/vendor/bootstrap/css/bootstrap.css",
-    "revision": "82252d754417f95f7779be349acc6361"
+    "revision": "df40d6e4c661bcd1790dce6861e34ce4"
   },
   {
     "url": "web-development/vendor/bootstrap/css/bootstrap.min.css",
-    "revision": "a7022c6fa83d91db67738d6e3cd3252d"
+    "revision": "7cc40c199d128af6b01e74a28c5900b0"
   },
   {
     "url": "web-development/vendor/bootstrap/js/bootstrap.bundle.js",
-    "revision": "ee08eb7f44335a3cf385e03d4406e4a5"
+    "revision": "1a94abb2d5270a12fa1ffba3a186737d"
   },
   {
     "url": "web-development/vendor/bootstrap/js/bootstrap.bundle.min.js",
-    "revision": "d70c474886678aebe3e9d91965dc8b62"
+    "revision": "a5334e475209f965b4862f3bedf32618"
   },
   {
     "url": "web-development/vendor/bootstrap/js/bootstrap.js",
-    "revision": "c2cdb900858c3e63ce8cd9f69171d342"
+    "revision": "702049b302bef35ba3614119b4c82cce"
   },
   {
     "url": "web-development/vendor/bootstrap/js/bootstrap.min.js",
-    "revision": "eb5fac582a82f296aeb74900b01a2fa3"
+    "revision": "61f338f870fcd0ff46362ef109d28533"
   },
   {
     "url": "web-development/vendor/devicons/css/devicons.css",
@@ -376,19 +376,19 @@ self.__precacheManifest = [
   },
   {
     "url": "web-development/vendor/jquery/jquery.js",
-    "revision": "6a07da9fae934baf3f749e876bbfdd96"
+    "revision": "11c05eb286ed576526bf4543760785b9"
   },
   {
     "url": "web-development/vendor/jquery/jquery.min.js",
-    "revision": "a09e13ee94d51c524b7e2a728c7d4039"
+    "revision": "220afd743d9e9643852e31a135a9f3ae"
   },
   {
     "url": "web-development/vendor/jquery/jquery.slim.js",
-    "revision": "450d478c0491cf0b2d365997faff70dd"
+    "revision": "1a94b73b4b451a7872de5d76f57024e4"
   },
   {
     "url": "web-development/vendor/jquery/jquery.slim.min.js",
-    "revision": "99b0a83cf1b0b1e2cb16041520e87641"
+    "revision": "d9b11ca4d877c327889805b73bb79edd"
   },
   {
     "url": "web-development/vendor/simple-line-icons/css/simple-line-icons.css",
