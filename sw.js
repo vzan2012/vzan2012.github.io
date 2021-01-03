@@ -100,7 +100,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "6ab91bfcb1cf14f5fe8bc0ada6cea4b3"
+    "revision": "6d67f37c56f06ad6d53e4db0bea77fe7"
   },
   {
     "url": "js/resume.js",
@@ -155,12 +155,12 @@ self.__precacheManifest = [
     "revision": "eb5fac582a82f296aeb74900b01a2fa3"
   },
   {
-    "url": "vendor/devicons/css/devicons.css",
-    "revision": "b72ad786d78eb1aa09edcc91f75751cb"
+    "url": "vendor/devicons/css/devicon.css",
+    "revision": "5e77434d2f3f415817275ab8099e6326"
   },
   {
-    "url": "vendor/devicons/css/devicons.min.css",
-    "revision": "fd1f5fd2d31a07e99105522fff10b2a5"
+    "url": "vendor/devicons/css/devicon.min.css",
+    "revision": "2fad1d135e275285197d17326b9ac25f"
   },
   {
     "url": "vendor/font-awesome/css/font-awesome.css",
@@ -204,11 +204,11 @@ self.__precacheManifest = [
   },
   {
     "url": "web-development/css/resume.css",
-    "revision": "803f39e5eda4d8895b48ca62dcbef64f"
+    "revision": "c2836e579b6c03fb301e4977f79d31c1"
   },
   {
     "url": "web-development/css/resume.min.css",
-    "revision": "06501d9931d89b8a9630d3bf687acf91"
+    "revision": "17ef5324755f820addd39362aa9baf2c"
   },
   {
     "url": "web-development/gulpfile.js",
@@ -284,7 +284,7 @@ self.__precacheManifest = [
   },
   {
     "url": "web-development/index.html",
-    "revision": "6ab91bfcb1cf14f5fe8bc0ada6cea4b3"
+    "revision": "6d67f37c56f06ad6d53e4db0bea77fe7"
   },
   {
     "url": "web-development/js/resume.js",
@@ -347,12 +347,12 @@ self.__precacheManifest = [
     "revision": "61f338f870fcd0ff46362ef109d28533"
   },
   {
-    "url": "web-development/vendor/devicons/css/devicons.css",
-    "revision": "b72ad786d78eb1aa09edcc91f75751cb"
+    "url": "web-development/vendor/devicons/css/devicon.css",
+    "revision": "5e77434d2f3f415817275ab8099e6326"
   },
   {
-    "url": "web-development/vendor/devicons/css/devicons.min.css",
-    "revision": "fd1f5fd2d31a07e99105522fff10b2a5"
+    "url": "web-development/vendor/devicons/css/devicon.min.css",
+    "revision": "2fad1d135e275285197d17326b9ac25f"
   },
   {
     "url": "web-development/vendor/font-awesome/css/font-awesome.css",
