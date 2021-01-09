@@ -1,0 +1,16 @@
+.bg-primary {
+  background-color: $android-orange !important;
+}
+
+.text-primary {
+  color: $android-orange !important;
+}
+
+a {
+  color: $primary;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($android-orange, 15%);
+  }
+}

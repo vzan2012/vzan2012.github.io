@@ -24,11 +24,11 @@ workbox.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "css/resume.css",
-    "revision": "803f39e5eda4d8895b48ca62dcbef64f"
+    "revision": "c2836e579b6c03fb301e4977f79d31c1"
   },
   {
     "url": "css/resume.min.css",
-    "revision": "06501d9931d89b8a9630d3bf687acf91"
+    "revision": "17ef5324755f820addd39362aa9baf2c"
   },
   {
     "url": "img/favicons/apple-touch-icon-114x114.png",
@@ -95,12 +95,16 @@ self.__precacheManifest = [
     "revision": "d2089e4ba99ef80542d4410ad9a9494f"
   },
   {
-    "url": "img/my-profile-photo.jpg",
+    "url": "img/my-profile-photo_OLD.jpg",
     "revision": "c3e217386d04c662c59b6493e2d0b041"
   },
   {
+    "url": "img/my-profile-photo.jpg",
+    "revision": "49351d529abe2921bceba8ea784d7a1d"
+  },
+  {
     "url": "index.html",
-    "revision": "ac54e3d40a811bf31cd65c49a21ee96c"
+    "revision": "68c316933bfaacd868448fdb23046cfb"
   },
   {
     "url": "js/resume.js",
@@ -132,27 +136,27 @@ self.__precacheManifest = [
   },
   {
     "url": "vendor/bootstrap/css/bootstrap.css",
-    "revision": "82252d754417f95f7779be349acc6361"
+    "revision": "df40d6e4c661bcd1790dce6861e34ce4"
   },
   {
     "url": "vendor/bootstrap/css/bootstrap.min.css",
-    "revision": "a7022c6fa83d91db67738d6e3cd3252d"
+    "revision": "7cc40c199d128af6b01e74a28c5900b0"
   },
   {
     "url": "vendor/bootstrap/js/bootstrap.bundle.js",
-    "revision": "ee08eb7f44335a3cf385e03d4406e4a5"
+    "revision": "1a94abb2d5270a12fa1ffba3a186737d"
   },
   {
     "url": "vendor/bootstrap/js/bootstrap.bundle.min.js",
-    "revision": "d70c474886678aebe3e9d91965dc8b62"
+    "revision": "a5334e475209f965b4862f3bedf32618"
   },
   {
     "url": "vendor/bootstrap/js/bootstrap.js",
-    "revision": "c2cdb900858c3e63ce8cd9f69171d342"
+    "revision": "702049b302bef35ba3614119b4c82cce"
   },
   {
     "url": "vendor/bootstrap/js/bootstrap.min.js",
-    "revision": "eb5fac582a82f296aeb74900b01a2fa3"
+    "revision": "61f338f870fcd0ff46362ef109d28533"
   },
   {
     "url": "vendor/devicons/css/custom.css",
@@ -180,19 +184,19 @@ self.__precacheManifest = [
   },
   {
     "url": "vendor/jquery/jquery.js",
-    "revision": "6a07da9fae934baf3f749e876bbfdd96"
+    "revision": "11c05eb286ed576526bf4543760785b9"
   },
   {
     "url": "vendor/jquery/jquery.min.js",
-    "revision": "a09e13ee94d51c524b7e2a728c7d4039"
+    "revision": "220afd743d9e9643852e31a135a9f3ae"
   },
   {
     "url": "vendor/jquery/jquery.slim.js",
-    "revision": "450d478c0491cf0b2d365997faff70dd"
+    "revision": "1a94b73b4b451a7872de5d76f57024e4"
   },
   {
     "url": "vendor/jquery/jquery.slim.min.js",
-    "revision": "99b0a83cf1b0b1e2cb16041520e87641"
+    "revision": "d9b11ca4d877c327889805b73bb79edd"
   },
   {
     "url": "vendor/simple-line-icons/css/simple-line-icons.css",
