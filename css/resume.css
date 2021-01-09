@@ -120,11 +120,13 @@ section.resume-section .resume-item .resume-date {
   min-width: none;
 }
 
-.resume-email, .g-addr-link {
+.resume-email,
+.g-addr-link {
   color: #E06D06;
 }
 
-.resume-email:hover, .g-addr-link:hover {
+.resume-email:hover,
+.g-addr-link:hover {
   color: #868e96;
   text-decoration: none;
 }
@@ -144,10 +146,6 @@ section.resume-section .resume-item .resume-date {
 
 .cert-list .sub-acad {
   font-size: 0.75rem;
-}
-
-.cert-list .sub-acad.d-block {
-  display: none !important;
 }
 
 .b-points {

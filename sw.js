@@ -100,7 +100,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "6d67f37c56f06ad6d53e4db0bea77fe7"
+    "revision": "ac54e3d40a811bf31cd65c49a21ee96c"
   },
   {
     "url": "js/resume.js",
@@ -155,12 +155,8 @@ self.__precacheManifest = [
     "revision": "eb5fac582a82f296aeb74900b01a2fa3"
   },
   {
-    "url": "vendor/devicons/css/devicon.css",
-    "revision": "5e77434d2f3f415817275ab8099e6326"
-  },
-  {
-    "url": "vendor/devicons/css/devicon.min.css",
-    "revision": "2fad1d135e275285197d17326b9ac25f"
+    "url": "vendor/devicons/css/custom.css",
+    "revision": "5e4593edba3261633fb69e9e7dcf4d26"
   },
   {
     "url": "vendor/font-awesome/css/font-awesome.css",
@@ -279,12 +275,16 @@ self.__precacheManifest = [
     "revision": "d2089e4ba99ef80542d4410ad9a9494f"
   },
   {
-    "url": "web-development/img/my-profile-photo.jpg",
+    "url": "web-development/img/my-profile-photo_OLD.jpg",
     "revision": "c3e217386d04c662c59b6493e2d0b041"
   },
   {
+    "url": "web-development/img/my-profile-photo.jpg",
+    "revision": "49351d529abe2921bceba8ea784d7a1d"
+  },
+  {
     "url": "web-development/index.html",
-    "revision": "6d67f37c56f06ad6d53e4db0bea77fe7"
+    "revision": "68c316933bfaacd868448fdb23046cfb"
   },
   {
     "url": "web-development/js/resume.js",
@@ -347,12 +347,8 @@ self.__precacheManifest = [
     "revision": "61f338f870fcd0ff46362ef109d28533"
   },
   {
-    "url": "web-development/vendor/devicons/css/devicon.css",
-    "revision": "5e77434d2f3f415817275ab8099e6326"
-  },
-  {
-    "url": "web-development/vendor/devicons/css/devicon.min.css",
-    "revision": "2fad1d135e275285197d17326b9ac25f"
+    "url": "web-development/vendor/devicons/css/custom.css",
+    "revision": "5e4593edba3261633fb69e9e7dcf4d26"
   },
   {
     "url": "web-development/vendor/font-awesome/css/font-awesome.css",
