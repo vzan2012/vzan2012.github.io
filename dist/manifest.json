@@ -4,32 +4,32 @@
   "short_name": "DG-Resume",
   "icons": [
     {
-      "src": "/dist/img/favicons/favicon-48.png",
+      "src": "img/favicons/favicon-48.png",
       "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "/dist/img/favicons/favicon-72.png",
+      "src": "img/favicons/favicon-72.png",
       "type": "image/png",
       "sizes": "72x72"
     },
     {
-      "src": "/dist/img/favicons/favicon-96.png",
+      "src": "img/favicons/favicon-96.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "/dist/img/favicons/favicon-144.png",
+      "src": "img/favicons/favicon-144.png",
       "type": "image/png",
       "sizes": "144x144"
     },
     {
-      "src": "/dist/img/favicons/favicon-192.png",
+      "src": "img/favicons/favicon-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/dist/img/favicons/favicon-512.png",
+      "src": "img/favicons/favicon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
