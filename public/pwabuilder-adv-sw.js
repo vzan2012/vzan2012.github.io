@@ -1,14 +1,22 @@
-// import { precacheAndRoute } from "workbox-precaching/precacheAndRoute";
 importScripts(
   "https://storage.googleapis.com/workbox-cdn/releases/6.5.4/workbox-sw.js"
 );
 
 workbox.precaching.precacheAndRoute([
+  {
+    revision: "af562f66fdb8ddfc86132c54f12aca3c",
+    url: "assets/index-017315fd.css",
+  },
+  {
+    revision: "05e3a40331948fde05b184ab57f18df4",
+    url: "assets/index-31fa5a03.js",
+  },
   { revision: "c2836e579b6c03fb301e4977f79d31c1", url: "css/resume.css" },
   { revision: "17ef5324755f820addd39362aa9baf2c", url: "css/resume.min.css" },
-  { revision: "f8b25a15a52fec0c2e1d7484f339de9c", url: "index.html" },
+  { revision: "39e987802d237ab76dc0a46bf0ce527d", url: "index.html" },
   { revision: "1ae80cd61159f5f817931e799f104147", url: "js/resume.js" },
   { revision: "60d5ac272e38bab0583e49832b4e7762", url: "js/resume.min.js" },
+  { revision: "b2b0070533e9aab4806b952dfbc56574", url: "pwabuilder-adv-sw.js" },
   {
     revision: "5b8e85055bb8b4bf4ac7f4edddcf7ab7",
     url: "vendor/bootstrap/css/bootstrap-grid.css",
