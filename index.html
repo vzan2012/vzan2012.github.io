@@ -1453,7 +1453,7 @@
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", () => {
           navigator.serviceWorker
-            .register("./pwabuilder-adv-sw.js")
+            .register("./dist/pwabuilder-adv-sw.js")
             .then((registration) => {
               console.log("Service Worker registered");
             })
