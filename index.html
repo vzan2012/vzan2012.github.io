@@ -13,77 +13,74 @@
     <meta name="author" content="Deepak Guptha Sitharaman" />
 
     <!-- Manifest File -->
-    <link rel="manifest" href="/dist/manifest.json" />
+    <link rel="manifest" href="/manifest.json" />
 
     <title>Deepak Guptha - Resume</title>
 
     <!-- Favicons -->
     <link
       rel="shortcut icon"
-      href="/dist/img/favicons/favicon.ico"
+      href="/img/favicons/favicon.ico"
       type="image/x-icon"
     />
-    <link rel="icon" href="/dist/img/favicons/favicon.png" type="image/png" />
+    <link rel="icon" href="/img/favicons/favicon.png" type="image/png" />
     <link
       rel="icon"
       sizes="32x32"
-      href="/dist/img/favicons/favicon-32.png"
+      href="/img/favicons/favicon-32.png"
       type="image/png"
     />
     <link
       rel="icon"
       sizes="64x64"
-      href="/dist/img/favicons/favicon-64.png"
+      href="/img/favicons/favicon-64.png"
       type="image/png"
     />
     <link
       rel="icon"
       sizes="96x96"
-      href="/dist/img/favicons/favicon-96.png"
+      href="/img/favicons/favicon-96.png"
       type="image/png"
     />
     <link
       rel="icon"
       sizes="196x196"
-      href="/dist/img/favicons/favicon-196.png"
+      href="/img/favicons/favicon-196.png"
       type="image/png"
     />
     <link
       rel="apple-touch-icon"
       sizes="152x152"
-      href="/dist/img/favicons/apple-touch-icon.png"
+      href="/img/favicons/apple-touch-icon.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="60x60"
-      href="/dist/img/favicons/apple-touch-icon-60x60.png"
+      href="/img/favicons/apple-touch-icon-60x60.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="76x76"
-      href="/dist/img/favicons/apple-touch-icon-76x76.png"
+      href="/img/favicons/apple-touch-icon-76x76.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="114x114"
-      href="/dist/img/favicons/apple-touch-icon-114x114.png"
+      href="/img/favicons/apple-touch-icon-114x114.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="120x120"
-      href="/dist/img/favicons/apple-touch-icon-120x120.png"
+      href="/img/favicons/apple-touch-icon-120x120.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="144x144"
-      href="/dist/img/favicons/apple-touch-icon-144x144.png"
+      href="/img/favicons/apple-touch-icon-144x144.png"
     />
 
     <!-- Bootstrap core CSS -->
-    <link
-      href="/dist/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Custom fonts for this template -->
     <link
@@ -95,17 +92,20 @@
       rel="stylesheet"
     />
     <link
-      href="/dist/vendor/font-awesome/css/font-awesome.min.css"
+      href="/vendor/font-awesome/css/font-awesome.min.css"
       rel="stylesheet"
     />
-    <link href="/dist/vendor/devicons/css/custom.css" rel="stylesheet" />
+    <link href="/vendor/devicons/css/custom.css" rel="stylesheet" />
     <link
-      href="/dist/vendor/simple-line-icons/css/simple-line-icons.css"
+      href="/vendor/simple-line-icons/css/simple-line-icons.css"
       rel="stylesheet"
     />
 
     <!-- Custom styles for this template -->
-    <link href="/dist/css/resume.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/resume.css" />
+
+    <!-- Magnify Popup Styles  -->
+    <link rel="stylesheet" href="/css/magnific-popup.css" />
 
     <!-- Google Analytics - Coming Soon -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -140,7 +140,7 @@
         >
           <img
             class="img-fluid img-profile rounded-circle mx-auto mb-2"
-            src="/dist/img/my-profile-photo.jpg"
+            src="/img/my-profile-photo.jpg"
             alt="Deepak Guptha Sitharaman"
           />
         </span>
@@ -175,6 +175,9 @@
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests"
               >Interests</a
             >
@@ -201,7 +204,7 @@
           >
             <img
               class="img-fluid img-profile rounded-circle mx-auto mb-2"
-              src="/dist/img/my-profile-photo.jpg"
+              src="/img/my-profile-photo.jpg"
               alt="Deepak Guptha Sitharaman"
             />
           </div>
@@ -326,7 +329,14 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Software Developer</h3>
               <div class="subheading mb-3">Veepee, France (Paris)</div>
-              <p>-</p>
+              <p>
+                Streamlined data management by migrating database files from
+                blob to S3 buckets, resulting in a 25% increase in efficiency.
+                Improved frontend user experience by 25% by implementing bug
+                fixes for Angular and React components for organizational
+                products. Collaborated with team members to troubleshoot and fix
+                code issues, to avoid a decrease in production downtime.
+              </p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">Dec 2019 - May 2023</span>
@@ -338,10 +348,32 @@
               <div class="subheading mb-3">
                 Vente Privee (Veepee), France (Paris)
               </div>
-              <p>-</p>
+              <p>
+                Implemented new features in Kronos App using Node.js and
+                MariaDB, leading to 25% increase in user engagement.
+                Collaborated with a team to utilize Node.js and MariaDB for
+                Back-End development of Kronos Application, resulting in
+                improved efficiency and reduced errors.
+              </p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">Mar 2019 - Aug 2019</span>
+            </div>
+          </div>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">
+                Contributing Author &amp; Freelance Illustrator
+              </h3>
+              <div class="subheading mb-3">
+                Envato Author Community &amp; Shutterstock
+              </div>
+              <p>
+                Created 50+ vector maps using Adobe Illustrator &amp; Photoshop.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Feb 2018 - Feb 2019</span>
             </div>
           </div>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
@@ -1205,6 +1237,71 @@
       </section>
       <!-- Skills Section - End -->
 
+      <!-- Projects Section - Start -->
+      <section
+        class="projects-section p-3 p-lg-5 d-flex flex-column"
+        id="projects"
+      >
+        <div class="my-auto">
+          <h2 class="mb-5 text-primary">Projects</h2>
+
+          <!-- <div class="subheading mb-3">Design Projects</div>
+         <div class="projects-image-section">
+           <div class="image-container">Unit-1</div>
+           <div class="image-container">Unit-2</div>
+           <div class="image-container">Unit-3</div>
+           <div class="image-container">Unit-4</div>
+           <div class="image-container">Unit-5</div>
+           <div class="image-container">Unit-6</div>
+         </div> -->
+
+          <div class="subheading mb-3">ReactJS Projects</div>
+          <div class="projects-image-section">
+            <div class="image-container">
+              <!-- Thumbnail Project Image  -->
+              <a
+                href="/img/project-portfolio/detailed/natural-event-tracker.png"
+                class="image-link"
+              >
+                <img
+                  src="/img/project-portfolio/thumbnails/natural-event-tracker.png"
+                />
+                <span>Natural Event Tracker</span>
+              </a>
+              <!-- Project Description  -->
+              <div class="text-container">
+                <h5>Natural Event Tracker</h5>
+                <p>
+                  This ReactJS application displays the events that took in this
+                  planet. The datas are fetched from the NASA EONET (Earth
+                  Observatory Natural Event Tracker) API. Libraries used in this
+                  application are - Vitejs and Chakra UI. <br /><strong
+                    >Link:</strong
+                  >
+                  <a
+                    href="https://natural-event-tracker-xi.vercel.app/"
+                    target="_blank"
+                    >https://natural-event-tracker-xi.vercel.app/</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- TODO: Need to work on the other project sections  -->
+          <!-- <div class="subheading mb-3">Envato &amp; Shutterstock Projects</div>
+         <div class="projects-image-section">
+           <div class="image-container">Unit-1</div>
+           <div class="image-container">Unit-2</div>
+           <div class="image-container">Unit-3</div>
+           <div class="image-container">Unit-4</div>
+           <div class="image-container">Unit-5</div>
+           <div class="image-container">Unit-6</div>
+         </div> -->
+        </div>
+      </section>
+      <!-- Projects Section - End -->
+
       <!-- Interest Section - Start -->
       <section
         class="resume-section p-3 p-lg-5 d-flex flex-column"
@@ -1332,25 +1429,28 @@
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script type="module" src="/dist/vendor/jquery/jquery.min.js"></script>
+    <script type="module" src="/vendor/jquery/jquery.min.js"></script>
     <script
       type="module"
-      src="/dist/vendor/bootstrap/js/bootstrap.bundle.min.js"
+      src="/vendor/bootstrap/js/bootstrap.bundle.min.js"
     ></script>
 
     <!-- Plugin JavaScript -->
     <script
       type="module"
-      src="/dist/vendor/jquery-easing/jquery.easing.min.js"
+      src="/vendor/jquery-easing/jquery.easing.min.js"
     ></script>
 
+    <!-- Magnific Popup - Scripts -->
+    <script type="module" src="/js/jquery.magnific-popup.min.js"></script>
+
     <!-- Custom scripts for this template -->
-    <script type="module" src="/dist/js/resume.min.js"></script>
+    <script type="module" src="/js/resume.js"></script>
     <script type="module">
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", () => {
           navigator.serviceWorker
-            .register("./dist/pwabuilder-adv-sw.js")
+            .register("./pwabuilder-adv-sw.js")
             .then((registration) => {
               console.log("Service Worker registered");
             })
