@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans", serif;
+  font-family: 'Open Sans', serif;
   padding-top: 54px;
   color: #666;
 }
@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Saira Extra Condensed", serif;
+  font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
@@ -35,7 +35,7 @@ h2 {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: "Saira Extra Condensed", serif;
+  font-family: 'Saira Extra Condensed', serif;
   font-size: 1.35rem;
 }
 
@@ -44,7 +44,7 @@ h2 {
 }
 
 .list-social-icons a:hover {
-  color: #e06d06;
+  color: #E06D06;
 }
 
 .list-social-icons a .fa-lg {
@@ -56,7 +56,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #e06d06;
+  color: #E06D06;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -68,76 +68,6 @@ h2 {
 #sideNav .navbar-nav .nav-item .nav-link.active {
   color: #212529;
   font-weight: bold;
-}
-
-/* Project Section - Styles  */
-.projects-image-section {
-  display: flex;
-  margin-bottom: 50px;
-  flex-direction: row;
-}
-
-.projects-image-section .image-container {
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 0 10px;
-  border: 1px solid #ccc;
-  display: flex;
-}
-
-.projects-image-section .image-container a {
-  position: relative;
-}
-
-.text-container {
-  display: none;
-  color: #fff;
-  width: 90%;
-  margin: 0 auto;
-
-  h5 {
-    color: #fff;
-    margin-bottom: 15px;
-  }
-
-  p {
-    font-size: 14px;
-    line-height: 20px;
-  }
-
-  a {
-    color: #fff;
-    text-decoration: underline;
-
-    &:hover {
-      color: #fff;
-      text-decoration: none;
-    }
-  }
-}
-
-.projects-image-section .image-container a img {
-  max-width: 100%;
-  height: auto;
-}
-
-.projects-image-section .image-container a span {
-  font-size: 13px;
-  padding: 5px;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.7);
-  display: block;
-  bottom: 0;
-  width: 100%;
-  position: absolute;
-  text-align: center;
-}
-
-.mfp-figure:after {
-  background: transparent !important;
-  box-shadow: none !important;
-  border: 0;
 }
 
 @media (min-width: 992px) {
@@ -192,7 +122,7 @@ section.resume-section .resume-item .resume-date {
 
 .resume-email,
 .g-addr-link {
-  color: #e06d06;
+  color: #E06D06;
 }
 
 .resume-email:hover,
@@ -261,11 +191,9 @@ section.resume-section .resume-item .resume-date {
 }
 
 a {
-  color: #e06d06;
+  color: #E06D06;
 }
 
-a:hover,
-a:focus,
-a:active {
+a:hover, a:focus, a:active {
   color: #cf8c00;
 }
