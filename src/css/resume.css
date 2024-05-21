@@ -260,6 +260,11 @@ section.resume-section .resume-item .resume-date {
   color: #ffb61c !important;
 }
 
+.year-caption-text {
+  color: #343a40;
+  font-weight: bold;
+}
+
 a {
   color: #e06d06;
 }
