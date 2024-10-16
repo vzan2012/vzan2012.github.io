@@ -81,7 +81,7 @@ h2 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin: 0 10px;
+  margin: 0 20px 20px 0;
   border: 1px solid #ccc;
   display: flex;
 }
@@ -93,7 +93,7 @@ h2 {
 .text-container {
   display: none;
   color: #fff;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 

@@ -98,6 +98,10 @@
   display: none !important;
 }
 
+.mfp-figure button.mfp-close {
+  cursor: pointer !important;
+}
+
 .mfp-preloader {
   color: #ccc;
   position: absolute;
@@ -294,7 +298,7 @@ img.mfp-img {
   display: block;
   line-height: 0;
   box-sizing: border-box;
-  padding: 40px 0 40px;
+  padding: 40px 0 15px;
   margin: 0 auto;
 }
 
