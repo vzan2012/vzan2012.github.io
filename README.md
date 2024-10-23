@@ -4,7 +4,7 @@
 
 I have more work experience on Front end development compared to Back end development. Now I'm currently learning ReactJS and GraphQL technologies to be more concentrating on Full Stack Development.
 
-- 🌍  I'm based in Paris, France
+- 🌍  I'm based in Philadelphia, USA
 - 🖥️  See my portfolio at [Personal Website](http://vzan2012.github.io/)
 - ✉️  You can contact me at [vzan2012@gmail.com](mailto: vzan2012@gmail.com)
 - 🚀  I'm currently working on [Food Order App](http://-)
