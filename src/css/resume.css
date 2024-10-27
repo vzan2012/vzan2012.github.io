@@ -140,6 +140,20 @@ h2 {
   border: 0;
 }
 
+.download-item {
+  margin-top: 20px;
+}
+
+.download-button {
+  background: #343a40;
+  color: #fff !important;
+}
+
+.download-button:hover {
+  background: transparent;
+  color: #343a40 !important;
+}
+
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
