@@ -1,0 +1,12 @@
+version: "3.5"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: vzan2012-website-vite
+    ports:
+      - "4173:4173"
+    volumes:
+      - "./src:/website/src"
