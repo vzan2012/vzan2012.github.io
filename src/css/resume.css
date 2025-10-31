@@ -265,6 +265,144 @@ section.resume-section .resume-item .resume-date {
   margin-left: 0;
 }
 
+.nav-item.active .nav-link {
+  color: var(--link-active-color) !important;
+  font-weight: bold !important;
+}
+
+.project-page-wrapper {
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 98%;
+}
+
+.project-nav-section {
+  text-align: right;
+  display: block;
+  margin-top: 10px;
+}
+
+.back-button {
+  margin-right: 10px;
+}
+
+.project-hero-image-section {
+  width: 100%;
+  margin: 10px 0 60px;
+}
+
+.project-hero-image-section img {
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid var(--link-active-color);
+  display: block;
+}
+
+.project-header-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project-header-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+  line-height: 2rem;
+}
+
+.project-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  font-weight: 400;
+}
+
+.project-section {
+  margin-bottom: 30px;
+}
+
+.project-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 2px solid var(--button-color);
+  padding-bottom: 8px;
+}
+
+.project-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.project-section ul {
+  padding-left: 20px;
+}
+
+.project-section li {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+/* Process Timeline */
+.process-timeline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.process-step {
+  text-align: center;
+  flex: 1;
+}
+
+.step-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.step-text {
+  font-weight: 600;
+  color: #333;
+}
+
+.image-placeholder {
+  background: #f8f9fa;
+  border: 2px dashed #dee2e6;
+  border-radius: 8px;
+  padding: 40px;
+  text-align: center;
+  color: #6c757d;
+  margin: 20px 0;
+}
+
+.prototype-link {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.prototype-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: var(--button-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.prototype-button:hover {
+  transform: translateY(-2px);
+  background: var(--link-active-color);
+  text-decoration: none;
+  color: white;
+}
+
 @media (min-width: 360px) {
   .d-mobile-color {
     color: var(--text-year-color);
