@@ -84,43 +84,46 @@ h2 {
 
 /* Project Section - Styles  */
 .projects-image-section {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
   margin-bottom: 50px;
-  flex-direction: row;
 }
 
 .projects-image-section .image-container {
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 0 20px 20px 0;
-  border: 1px solid var(--border-color);
-  display: flex;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .projects-image-section .image-container a {
-  position: relative;
+  display: block;
+  text-decoration: none;
+  color: inherit;
 }
 
 .projects-image-section .image-container a:hover {
-  animation: 600ms hovereffect ease-in-out;
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
 }
 
-.projects-image-section .image-container a img {
-  max-width: 100%;
-  height: auto;
-}
-
-.projects-image-section .image-container a span {
-  font-size: 13px;
-  padding: 5px;
-  color: var(--white-color);
-  background: rgba(0, 0, 0, 0.7);
-  display: block;
-  bottom: 0;
+.projects-image-section .image-container img {
   width: 100%;
-  position: absolute;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.projects-image-section .image-container span {
+  display: block;
+  padding: 15px;
   text-align: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--white-color);
+  background: #333;
 }
 
 .text-container {
@@ -215,6 +218,10 @@ h2 {
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
+  }
+
+  .projects-image-section {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   }
 }
 
@@ -415,6 +422,11 @@ section.resume-section .resume-item .resume-date {
   .download-item {
     text-align: center;
   }
+
+  .projects-image-section {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -427,6 +439,11 @@ section.resume-section .resume-item .resume-date {
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
+  }
+
+  .projects-image-section {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
   }
 }
 
