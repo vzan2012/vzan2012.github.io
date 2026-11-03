@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vzan2012.github.io/sitemap.xml

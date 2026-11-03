@@ -6,20 +6,52 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta
-      name="description"
-      content="Deepak Guptha Sitharaman - UI/UX Designer and Developer"
-    />
     <meta name="author" content="Deepak Guptha Sitharaman" />
-    <meta
-      name="og:image"
-      content="https://vzan2012.github.io/og-screenshot.jpg"
-    />
-
     <!-- Manifest File -->
     <link rel="manifest" href="/manifest.json" />
 
-    <title>Deepak Guptha - Resume | Portfolio</title>
+    <title>Deepak Guptha | Product Designer, UI/UX Designer & UI Developer</title>
+    <meta name="description" content="Portfolio of Deepak Guptha Sitharaman: Product Designer, UI/UX Designer and UI Developer with a Master's in Human-Computer Interaction Design and 10+ years in full-stack development. Figma to React and TypeScript." />
+    <link rel="canonical" href="https://vzan2012.github.io/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Deepak Guptha" />
+    <meta property="og:title" content="Deepak Guptha | Product Designer, UI/UX Designer & UI Developer" />
+    <meta property="og:description" content="Portfolio of Deepak Guptha Sitharaman: Product Designer, UI/UX Designer and UI Developer with a Master's in Human-Computer Interaction Design and 10+ years in full-stack development. Figma to React and TypeScript." />
+    <meta property="og:url" content="https://vzan2012.github.io/" />
+    <meta property="og:image" content="https://vzan2012.github.io/og-screenshot.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="robots" content="index, follow" />
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Deepak Guptha Sitharaman",
+  "url": "https://vzan2012.github.io/",
+  "jobTitle": "Product Designer and UI Developer",
+  "image": "https://vzan2012.github.io/og-screenshot.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Palm Bay",
+    "addressRegion": "FL",
+    "addressCountry": "US"
+  },
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Harrisburg University of Science and Technology"
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "EPITA"
+    }
+  ],
+  "sameAs": [
+    "https://github.com/vzan2012",
+    "https://www.linkedin.com/in/deepak-guptha-sitharaman-b31a12142",
+    "https://medium.com/@deepak.guptha.s"
+  ]
+}
+    </script>
 
     <!-- Favicons -->
     <link
@@ -337,6 +369,16 @@
           <!-- Figma - Design UX / UI Projects  -->
           <div class="subheading mb-3">UX / UI Design Projects</div>
           <div class="projects-image-section">
+            <div class="image-container">
+              <a href="projects/trade-show-platform/trade-show-platform-project.html">
+                <img
+                  src="/src/img/project-portfolio/thumbnails/trade-show-platform.png"
+                  alt="Tradeshow Management Platform"
+                  loading="lazy"
+                />
+                <span>Tradeshow Management Platform</span>
+              </a>
+            </div>
             <div class="image-container">
               <!-- Thumbnail Project Image  -->
               <a href="projects/imovies/imovies-project.html">
@@ -675,10 +717,8 @@
               <div class="text-container">
                 <h5>Astronomy - Photo of the Day</h5>
                 <p>
-                  This ReactJS application displays the 'Picture' or 'Video' of
-                  the Day. The datas are fetched from the NASA API. You can
-                  register in the NASA API website to get the key and use it in
-                  the scripts file.
+                  A React app that shows NASA's Astronomy Picture (or Video) of
+                  the Day, fetched live from the NASA APOD API.
                   <br /><strong>Link:</strong>
                   <a href="https://apod-react-six.vercel.app/" target="_blank"
                     >https://apod-react-six.vercel.app/</a
@@ -703,10 +743,9 @@
               <div class="text-container">
                 <h5>Natural Event Tracker</h5>
                 <p>
-                  This ReactJS application displays the events that took in this
-                  planet. The datas are fetched from the NASA EONET (Earth
-                  Observatory Natural Event Tracker) API. Libraries used in this
-                  application are - Vitejs and Chakra UI. <br /><strong
+                  A React app that visualizes natural events happening on Earth,
+                  using data from the NASA EONET API. Built with Vite and
+                  Chakra UI. <br /><strong
                     >Link:</strong
                   >
                   <a
@@ -716,6 +755,45 @@
                   >
                 </p>
               </div>
+            </div>
+          </div>
+
+          <!-- AI Projects  -->
+          <div class="subheading mb-3 mt-5">AI Projects</div>
+          <div class="ai-projects">
+            <div class="mb-4">
+              <h5>V Product Chatbot</h5>
+              <p class="mb-1">
+                An AI chatbot for batch analysis of product images: upload up to
+                four photos and get insights on quality and defects. Built with
+                React 19, TypeScript, Vite, Tailwind CSS v4 and LangChain.js,
+                using Groq (Qwen 2.5-VL, Llama 3.3) and Google Gemini.
+              </p>
+              <a href="https://v-product-chatbox.vercel.app/" target="_blank" rel="noreferrer">Live demo</a>
+              &middot;
+              <a href="https://github.com/vzan2012/v-product-chatbox" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+            <div class="mb-4">
+              <h5>Multilingual RAG Pipeline</h5>
+              <p class="mb-1">
+                A local retrieval-augmented generation pipeline in TypeScript
+                (Bun). Documents in English and Spanish are chunked, embedded
+                locally, stored in ChromaDB for semantic search, and answered
+                with Groq through a REST API built with Elysia.
+              </p>
+              <a href="https://github.com/vzan2012/multilingual-rag-pipeline" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+            <div class="mb-4">
+              <h5>PawPal+ AI Care Advisor</h5>
+              <p class="mb-1">
+                A Streamlit app that builds a priority-based daily care schedule
+                for pets, then adds an AI layer (Gemini with a Groq fallback)
+                that returns specific care recommendations, with schedule
+                history across multiple pets. Python.
+              </p>
+              <a href="https://vzan2012-applied-ai-system-project-app-s6nkuq.streamlit.app/" target="_blank" rel="noreferrer">Live demo</a>
+              &middot;
+              <a href="https://github.com/vzan2012/applied-ai-system-project" target="_blank" rel="noreferrer">GitHub</a>
             </div>
           </div>
         </div>
@@ -757,8 +835,8 @@
               <p>
                 Product Designer on the Tradeshow &amp; Girl Scout project (CIE
                 partner). Designed wireframes, high-fidelity UI and interactive
-                Figma prototypes for data-driven dashboards, including Zibit, a
-                tradeshow management platform. Built a color system and
+                Figma prototypes for data-driven dashboards, including a
+                tradeshow management platform for a client. Built a color system and
                 reusable UI patterns that kept every dashboard consistent and
                 WCAG 2.1 accessible. Built the Girl Scout dashboard in Angular
                 19, Node.js and MySQL, collaborating through GitHub and
